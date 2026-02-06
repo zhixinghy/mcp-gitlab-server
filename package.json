@@ -1,0 +1,38 @@
+{
+  "name": "xc-mcp-server-gitlab",
+  "version": "1.0.1",
+  "description": "GitLab MCP Server - 用于创建 GitLab Merge Request 的 Model Context Protocol 服务器",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mcp-server-gitlab": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "prepublishOnly": "node -e \"console.log('✅ Ready to publish')\""
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "gitlab",
+    "merge-request",
+    "ci-cd",
+    "automation"
+  ],
+  "author": "xc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhixinghy/xc-mcp-server-gitlab.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ]
+}

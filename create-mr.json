@@ -1,0 +1,10 @@
+{
+  "method": "create_merge_request",
+  "params": {
+    "project_id": "?",
+    "source_branch": "xxx",
+    "target_branch": "xxx",
+    "title": "test",
+    "description": ""
+  }
+}
