@@ -1,4 +1,4 @@
-# xc-mcp-server-gitlab
+# mcp-gitlab-server
 
 GitLab MCP Server - 专门用于快速创建 GitLab Merge Request.
 
@@ -11,7 +11,7 @@ GitLab MCP Server - 专门用于快速创建 GitLab Merge Request.
   "mcpServers": {
     "gitlab": {
       "command": "npx",
-      "args": ["-y", "xc-mcp-server-gitlab"],
+      "args": ["-y", "mcp-gitlab-server"],
       "env": {
         "GITLAB_TOKEN": "您的GitLab访问令牌",
         "GITLAB_BASE_URL": "https://gitlab.jinsubao.cn"
